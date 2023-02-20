@@ -45,10 +45,6 @@ body {
 	margin-bottom: 11px;
 }
 #community p {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 26px;
-	letter-spacing: -0.2px;
 	color: #9aa7be;
 	margin-bottom: 40px;
 }
@@ -59,13 +55,6 @@ body {
 	padding: 40px;
 	font-weight: 700;
 	border-bottom-left-radius: 8px;
-}
-#price h3 {
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 21px;
-	letter-spacing: -0.225px;
-	color: #ffffff;
 }
 #price h2 {
 	font-weight: 700;
@@ -85,10 +74,6 @@ body {
 	opacity: 0.5;
 }
 #price p {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 26px;
-	letter-spacing: -0.2px;
 	color: #ffffff;
 	margin-bottom: 26px;
 }
@@ -117,11 +102,6 @@ body {
 	border-bottom-right-radius: 8px;
 }
 #whyus h3 {
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 21px;
-	letter-spacing: -0.225px;
-	color: #ffffff;
 	margin-bottom: 18px;
 }
 #whyus p {
@@ -132,6 +112,19 @@ body {
 	color: #ffffff;
 	mix-blend-mode: normal;
 	opacity: 0.75;
+}
+h3 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: -0.225px;
+	color: #ffffff;
+}
+p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: -0.2px;
 }
 @media screen and (max-width: 700px) {
 	#container {
@@ -174,12 +167,12 @@ body {
 	#price h2 {
 		font-size: 32px;
 		line-height: 37px;
-        margin-bottom: 4px;
+		margin-bottom: 4px;
 	}
-    #whyus{
-        width: 311px;
-        height: 227px;
-        border-radius: 0;
-        padding: 24px;
-    }
+	#whyus {
+		width: 311px;
+		height: 227px;
+		border-radius: 0;
+		padding: 24px;
+	}
 }
