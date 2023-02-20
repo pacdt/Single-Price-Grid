@@ -1,7 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Karla', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Karla", sans-serif;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	background: #e6eff5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#container {
+	width: 635px;
+	height: 475px;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-radius: 8px;
+}
+#community {
+	display: flex;
+	padding: 40px 40px 0 40px;
+	width: 635px;
+	flex-direction: column;
+}
+#community h2 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: -0.3px;
+	color: #2ab3b1;
+	margin-bottom: 24px;
+}
+#community h3 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: -0.225px;
+	color: #c0df33;
+	margin-bottom: 11px;
+}
+#community p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: -0.2px;
+	color: #9aa7be;
+	margin-bottom: 40px;
+}
+#price {
+	background: #2ab3b1;
+	width: 317.5px;
+	height: 260px;
+	padding: 40px;
+	font-weight: 700;
+	border-bottom-left-radius: 8px;
+}
+#price h3 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: -0.225px;
+	color: #ffffff;
+}
+#price h2 {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 37px;
+	letter-spacing: -0.4px;
+	color: #ffffff;
+	margin-bottom: 4px;
+}
+#price h2 span {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: -0.2px;
+	color: #ffffff;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+#price p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: -0.2px;
+	color: #ffffff;
+	margin-bottom: 26px;
+}
+#price button {
+	background: #c0df33;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+	border-radius: 5px;
+	width: 100%;
+	height: 48px;
+	border: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.2px;
+	color: #ffffff;
+}
+#price button:hover {
+	cursor: pointer;
+	background: #d3e96f;
+}
+#whyus {
+	background: #4abfbc;
+	width: 317.5px;
+	height: 260px;
+	padding: 40px;
+	border-bottom-right-radius: 8px;
+}
+#whyus h3 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: -0.225px;
+	color: #ffffff;
+	margin-bottom: 18px;
+}
+#whyus p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: -0.175px;
+	color: #ffffff;
+	mix-blend-mode: normal;
+	opacity: 0.75;
+}
+@media screen and (max-width: 700px) {
+	#container {
+		width: 311px;
+		height: 722px;
+		flex-direction: column;
+		border-radius: 8px;
+	}
+	#community {
+		width: 311px;
+		height: 267px;
+		padding: 28px 24px 24px 24px;
+	}
+	#community h2 {
+		font-size: 20px;
+		line-height: 23px;
+		letter-spacing: -0.25px;
+	}
+	#community h3 {
+		font-size: 15px;
+		line-height: 20px;
+		letter-spacing: -0.1875px;
+		margin-bottom: 16px;
+	}
+	#community p {
+		font-size: 14px;
+		letter-spacing: -0.175px;
+		margin-bottom: 32px;
+	}
+	#price {
+		width: 311px;
+		height: 228px;
+		border-radius: 0;
+		padding: 24px;
+	}
+	#price h3 {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	#price h2 {
+		font-size: 32px;
+		line-height: 37px;
+        margin-bottom: 4px;
+	}
+    #whyus{
+        width: 311px;
+        height: 227px;
+        border-radius: 0;
+        padding: 24px;
+    }
 }
